@@ -6,7 +6,7 @@ var btnWorshop3 = document.getElementById("work-3");
 
 // __________________________________________________________________
 
-var URL = "http://localhost:5000";
+var URL = "43.205.140.133:5000";
 
 btnWorshop1.addEventListener("click", function (e) {
   e.preventDefault();
