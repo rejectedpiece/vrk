@@ -16,4 +16,4 @@ ENV SECRET_KEY="sk_test_51N0g8sSBFxvYxNZ3qqSgFzN2KpvToazskHszWBZaeb9b1WTXO81uYN0
 
 EXPOSE 5000
 
-CMD ["node", "server.js"]
+CMD ["node", "index.js"]
