@@ -1,0 +1,13 @@
+.env
+.DS_Store
+.vscode
+
+# Dependencies
+node_modules
+package-lock.json.env
+.DS_Store
+.vscode
+
+# Dependencies
+node_modules
+package-lock.json
