@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const path = require("path");
+const cors = require('cors')
 
 require("dotenv").config();
 
@@ -9,6 +10,7 @@ require("dotenv").config();
 app.use(express.static(path.join(__dirname, "/client")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(cors());
 
 app.get("/", (req, res) => {
   return res.sendFile(path.join(__dirname + "/index.html"));
